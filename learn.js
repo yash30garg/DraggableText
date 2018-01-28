@@ -2,8 +2,8 @@ import {Observable} from 'rxjs';
  document.getElementById("character").style.position = 'absolute';
  document.getElementById("character").style.top = 370+'px';
  document.getElementById("character").style.left = 760+'px';
- document.getElementById('character').style.height=50+'px';
- document.getElementById('character').style.width=50+'px';
+ document.getElementById('character').style.height=100+'px';
+ document.getElementById('character').style.width=100+'px';
  document.getElementById('character').style.backgroundColor='blue';
 
 Observable.fromEvent(document,"keydown")
